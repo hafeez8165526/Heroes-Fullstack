@@ -26,7 +26,7 @@ nav {
   justify-content: space-between;
 }
 
-.card {
+#show-item {
   display: flex;
   background: #fff;
   padding: 30px 20px;
@@ -36,12 +36,17 @@ nav {
   max-width: fit-content;
 }
 
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+
 #hero-img {
   margin: auto;
-  width: 250px;
-  height: 250px;
-  border-radius: 15px;
-  border-style: outset;
+  width: 200px;
+  height: 200px;
+  border-radius: 12px;
 }
 
 
@@ -56,6 +61,7 @@ nav {
   right: 0;
   display: flex;
   margin: auto;
+  
 }
 #back-button:hover {
   transform: scale(1.3);
@@ -63,6 +69,7 @@ nav {
   transition-delay: 2ms;
   transition-duration: 0.4s;
   background-color: darkorange;
+  margin-bottom: 2px;
 }
 #back-button:focus {
   animation-name: button;
@@ -86,30 +93,13 @@ nav {
   }
 }
 
-.row{
-  display: flex;
-  text-align: center;
-  /* padding: 10px; */
-  
-}
-.stats{
-  max-width: fit-content;
-  overflow: auto;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-.stat{
-  text-align: center;
-  /* overflow: hidden; */
-  overflow-wrap: break-word;
-}
+
+
 .changeBackground{
   background-color: #fff;
   color: black;
 }
-li{
-  padding: 2;
-}
+
 .hover-white:hover{
   color: #fff;
 }
@@ -117,4 +107,10 @@ li{
   display: flex;
   justify-content: right;
 }
+
+
+
+
+
+
 

@@ -10,8 +10,8 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 
-import ShowHeroes from "./components/ShowHeroes";
-import HeroDetails from "./components/HeroDetails";
+import ShowProducts from "./components/ShowProducts";
+import HeroDetails from "./components/ProductDetails";
 import Login from "./components/Login";
 import Home from "./components/Home";
 import Navabar from "./components/Navabar";
@@ -36,11 +36,11 @@ function App() {
             <Route path="/home/*" element={<Home />} />
             <Route path="/:reset" element={<Login />} />
             <Route
-              path="/showHeroes"
-              element={<ShowHeroes className="show-heroes" />}
+              path="/showProducts"
+              element={<ShowProducts className="show-heroes" />}
             />
              <Route path="/cart" element={<Cart />} />
-            <Route path="/viewHero/*" element={<HeroDetails />} />
+            <Route path="/viewProduct/*" element={<HeroDetails />} />
           </Routes>
         </BrowserRouter>
       </CartProvider>

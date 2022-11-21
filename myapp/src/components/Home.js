@@ -1,17 +1,16 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
-import Popper from "popper.js";
-import { GiHeron } from "react-icons/gi";
-import { Link } from 'react-router-dom';
+import Footer from './Footer';
+
 import Navabar from './Navabar';
+import LoadingLogo from './LoadingLogo';
 
 function Home() {
   
   return (
+    <>
     <Navabar/>
-    
+    <LoadingLogo/>
+    <Footer/>
+    </>
   );
 }
 

@@ -13,7 +13,10 @@ module.exports = {
           primary: "blue",
           "primary-focus": "mediumblue",
         },
+        
       },
+      
+      
     ],
   },
 }
